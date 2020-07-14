@@ -7,6 +7,7 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      align-items: center;
       font-size: 13px;
       position: fixed;
       top: 0;
@@ -26,10 +27,11 @@ body {
     list-style: none;
     display: flex;
     flex-direction: row;
+    align-items: center;
     padding: 0px 20px 0px 20px;
   }
 
-  li {
+  .nav-footer-link {
     padding: 0px 20px 0px 20px;
   }
 
@@ -45,19 +47,39 @@ body {
       padding: 200px 0px 25px 0px;
   }
 
-  form {
+  .search-bar {
       display: flex;
-      flex-direction: column;
+      position: relative;
   }
 
-  #search-bar {
+  .search-icon {
+      position: absolute;
+      margin-top: 7px;
+  }
+
+  #ff-icon {
+      margin-left: 6.5px;
+  }
+
+  #vs-icon {
+    margin-left: 544.5px;
+  }
+
+  #search-field {
       border-radius: 24px;
-      width: 582px;
+      width: 532px;
       height: 44px;
       border: 1px solid #dfe1e5;
+      padding-left: 50px;
   }
 
-  #search-buttons {
+  .search-icon {
+      height: 34px;
+      width: 34px;
+  }
+
+
+  .search-buttons {
       display: flex;
       flex-direction: row;
       justify-content: center;
